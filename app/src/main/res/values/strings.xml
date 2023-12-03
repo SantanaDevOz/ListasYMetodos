@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SDC</string>
+    <string name="Btn_ListaSimple">Lista simple</string>
+    <string name="Btn_ListaDobleLigada">Lista doblemente ligada</string>
+    <string name="Btn_ListaCircular">Lista circular</string>
+    <string name="Btn_MetodosOrdenamiento">Metodos de ordenamiento</string>
+    <string name="Digitar">Digite palabra, numero o letra.</string>
+    <string name="Digitar2">Digite un numero.</string>
+    <string name="Imprimir">----</string>
+    <string name="Imprimir2">----</string>
+    <string name="Btn_Ingresar">Ingresar</string>
+    <string name="Btn_Inicio">Inicio</string>
+    <string name="Btn_MetodoBurbuja">Metodo de burbuja</string>
+    <string name="Btn_MetodoQS">Metodo de quicksort</string>
+</resources>

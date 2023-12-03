@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListaSimple">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="40dp">
+
+        <!--Ingresar valores-->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Digitar"
+            android:hint="@string/Digitar"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:maxLength="27"
+            />
+
+        <!--Boton ingresar valores-->
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Btn_Ingresar"
+            android:text="@string/Btn_Ingresar"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <!--Imprimir valores-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Imprimir"
+            android:hint="@string/Imprimir"
+            android:layout_gravity="center_horizontal"
+            android:textSize="35sp"
+            />
+
+        <!--Inicio-->
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Btn_Inicio"
+            android:text="@string/Btn_Inicio"
+            />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</ScrollView>
